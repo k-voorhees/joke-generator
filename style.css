@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+
+body {
+  font-family: "Mochiy Pop P One", sans-serif;
+  background-color: #6d6a5f;
+}
+/* heading */
+header {
+  text-align: center;
+}
+header h1 {
+  font-size: 300%;
+  color: #202269;
+}
+header p {
+  color: #202269;
+}
+span {
+  color: #202269;
+}
+
+/* category list layout */
+.category-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style: none;
+  padding-left: 0;
+  justify-content: center;
+}
+
+/* main joke area */
+.main-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.joke-zone {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: auto;
+  width: 700px;
+  margin: 0;
+  padding: 10px 50px;
+  font-family: "PT Sans", sans-serif;
+  font-weight: bold;
+  color: #110d0e;
+  background-color: #edebe9;
+  line-height: 2em;
+  border: 1px solid black;
+}
+#category-title {
+  color: #202269;
+}
+
+/* footer navigation */
+.next-prev {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: center;
+}
+.next-prev li {
+  padding: 1em;
+}
+
+/* category button design */
+button {
+  height: 30px;
+  width: auto;
+  font-size: larger;
+  border-color: #6d6a5f;
+  border-top: 0;
+  border-bottom: 0;
+  border-right: 0;
+  margin-bottom: 10px;
+  color: white;
+  background-color: #426386;
+}
+button:hover {
+  background-color: #002855;
+}
+.footer-nav button {
+  border: solid 1px #110d0e;
+}
+.category {
+  margin: 0px;
+}
